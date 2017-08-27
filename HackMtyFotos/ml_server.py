@@ -1,5 +1,5 @@
 from __future__ import division,print_function
-from flask import flask
+from flask import Flask
 app = Flask(__name__)
 
 from keras import backend as K
